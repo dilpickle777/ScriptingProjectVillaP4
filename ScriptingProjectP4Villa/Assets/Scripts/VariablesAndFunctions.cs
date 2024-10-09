@@ -16,7 +16,8 @@ public class VariablesAndFunctions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //I want to know what my y location is at all times
+        Debug.Log(transform.position.y);
     }
 
 
