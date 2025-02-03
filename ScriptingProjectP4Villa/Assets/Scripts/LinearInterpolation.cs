@@ -19,4 +19,12 @@ public class LinearInterpolation : MonoBehaviour
     {
        
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+      light.intensity = Mathf.Lerp(light.intensity, 8f, 0.5f);
+      light.intensity = Mathf.Lerp(light.intensity, 8f, 0.5f * Time.deltaTime);
+    }
+*/
 }
